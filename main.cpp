@@ -26,7 +26,7 @@ public:
 		}
 	}
 
-Tree(int * A, int N, bool zero_init = false){
+	Tree(int * A, int N, bool zero_init = false){
 		n = N;
 		B = (double*) malloc(sizeof(double) * n);
 		for (int i = 0; i < n; ++i){
